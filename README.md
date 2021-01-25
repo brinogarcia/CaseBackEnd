@@ -30,7 +30,7 @@ Para realizar os testes utilizei as ferramentas JUnit e MockMVC para os testes n
 Realizei a criação dos testes de acordo com as regras e especificações do desafio
 
 Também realizei a configuração do Swagger para documentação da API.
-Então poderá utilizar o link http://localhost:8080/swagger-ui.html para acessar a documentção do projeto na opção filme-controller.
+Então poderá utilizar o link http://localhost:8080/swagger-ui.html para acessar a documentção e também poderá realizar o teste por lá.
 
 *Execução*
 Para a basta seguir os dois camandos abaixo na pasta do projeto, necessário ter as variaeis de ambiente do Maven e do Java para executar:
