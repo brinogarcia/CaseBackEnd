@@ -32,6 +32,7 @@ Então poderá utilizar o link http://localhost:8080/swagger-ui.html para acessa
 
 *Execução*
 Para a basta seguir os dois camandos abaixo na pasta do projeto, necessário ter as variaeis de ambiente do Maven e do Java para executar:
+
 1º:
 mvn clean install
 
