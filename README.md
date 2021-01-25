@@ -17,6 +17,8 @@ O endpoint espera um objeto simples para o serviço:
 }
 ```
 
+OBS: Assumi que o código representasse um cadastro de conta de usuário, por este motivo não seria possível enviar mais de uma senha na mesma chamada, por isso criei uma classe Password com um atributo do tipo String para receber no body!
+
 A estrutura ficou organizada da Seguinte forma:
 Config, onde realizei algumas configurações do projeto;
 Controller, onde receberá as chamadas;
@@ -38,13 +40,6 @@ mvn clean install
 
 2º:
 java -jar target/password-0.0.1-SNAPSHOT.jar
-
-*Extra*
-Realizei também a configuração de um ambiente ElasticBeanstalk na minha conta da AWS com o seguinte link:
-http://donus-env.us-east-1.elasticbeanstalk.com/
-Deixarei disponível até o fim do processo caso queriam utilizar está disponível 
-Swagger:
-http://donus-env.us-east-1.elasticbeanstalk.com/swagger-ui.html
 
 
 Desde de já agradeço a oportunidade e mesmo que não seja selecionado para avançar gostaria de receber o feedback para eu melhorar no meu desenvolvimento!
