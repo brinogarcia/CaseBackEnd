@@ -1,6 +1,6 @@
 # CaseBackEnd
 
-Para realizar o teste utilizei o spring como framework, a decisão de escolha deste framework foi somente por conhecer melhor este do que outros.
+Utilizei o spring como framework, a decisão de escolha deste framework foi somente por conhecer melhor este do que outros.
 Criei um controller para receber as chamadas contendo um endpoint com o metodo post, para que a senha seja enviada pelo body da chamada.
 O endpoint espera um objeto simples para o serviço:
 ```json
